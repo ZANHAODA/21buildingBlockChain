@@ -3,4 +3,4 @@
 命令行操作，在cli.go
 网络操作 startnode 见server.go
 
-需要go语言环境，go mod .  之后，运行，进入到命令行  执行cli.go中的命令
+需要go语言环境，go build .  之后，运行，进入到命令行  执行cli.go中的命令
