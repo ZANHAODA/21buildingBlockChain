@@ -27,7 +27,7 @@ func (pow * ProofOfWork) prepareData(nonce int32) []byte {
 			pow.block.Merkleroot,
 			IntToHex(pow.block.Time),
 			IntToHex(pow.block.Bits),
-			IntToHex(pow.block.Nonce)},
+			IntToHex(nonce)},
 		[]byte{},
 	)
 	return data
